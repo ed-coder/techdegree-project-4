@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+    font-family: $font-stack;
 
     li {
      width: 100%;
@@ -18,8 +19,18 @@
     a{
       display: block;
       padding: 1.3rem 1rem;
-      color: white;
-      background:grey;
+      color: $main-type-color;
+
+      &:hover {
+        background:$accent-color;
+        color: $hover-light-color;
+      }
+
+      &:active {
+        background:$accent-color;
+
+
+      }
     }
   }
 

@@ -349,6 +349,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6rem;
+}
+
 .grid__row {
   padding: 1em 10px;
   display: flex;
@@ -497,6 +502,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 .nav li {
   width: 100%;
@@ -505,8 +511,14 @@ a {
 .nav a {
   display: block;
   padding: 1.3rem 1rem;
-  color: white;
-  background: grey;
+  color: #000;
+}
+.nav a:hover {
+  background: #58e1c1;
+  color: #fff;
+}
+.nav a:active {
+  background: #58e1c1;
 }
 
 /*# sourceMappingURL=styles.css.map */
